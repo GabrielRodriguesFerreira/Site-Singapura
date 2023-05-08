@@ -1,0 +1,14 @@
+.container__texto {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: var(--preto);
+}
+
+.rodape {
+    background-color: var(--fundo-rodape);
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}

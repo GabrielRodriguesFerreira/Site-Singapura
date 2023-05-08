@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Singapura</title>
+    <link rel="icon" 
+      type="image/jpg" 
+      href="./sites img/icone.png" />
+</head>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="container">
+        <a href="#" class="container__link__foto"
+          ><img class="cabecalho__logo" src="./sites img/logo.png" alt="Logo"
+        /></a>
+        <a href="empresas.html" class="container__link__texto__cabecalho"
+          >EMPRESAS</a
+        >
+        <a href="tecnologia.html" class="container__link__texto__cabecalho"
+          >TECNOLOGIA</a
+        >
+        <a href="historia.html" class="container__link__texto__cabecalho"
+          >HISTÓRIA</a
+        >
+        <a href="informacoes.html" class="container__link__texto__cabecalho"
+          >INFORMAÇÕES</a
+        >
+      </div>
+    </header>
+
+    <section class="carrossel">
+      <h2 class="singapura">SINGAPURA</h2>
+      <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./sites img/foto1.jpg" alt="" class="foto" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./sites img/foto2.png" alt="" class="foto" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./sites img/gardens.webp" alt="" class="foto" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./sites img/grove.jpg" alt="" class="foto" />
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <footer></footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        spaceBetween: 14,
+        slidesPerView: 1,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+        },
+      });
+    </script>
+  </body>
+</html>

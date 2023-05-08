@@ -1,0 +1,26 @@
+.tecnologia_title {
+    font-size: 96px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.tecnologia_title_2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.tecnologia_title_3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 0.5em;
+    padding: 2em 0 0 2em;
+}
+
+.paragrafo {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 35px;
+}

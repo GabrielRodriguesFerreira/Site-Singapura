@@ -1,0 +1,53 @@
+.cabecalho {
+    background-color: var(--cor-fundo-cabecalho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 90px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__logo {
+    display: flex;
+    padding: 1em;
+    width: 60%;
+    align-items: center;
+}
+
+.container__link__texto {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.container__link__texto__empresas {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.container__link__texto__cabecalho {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15.2px;
+    text-decoration: none;
+    color: var(--preto);
+}

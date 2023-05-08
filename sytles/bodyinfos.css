@@ -1,0 +1,27 @@
+.textos__dados,
+.textos__infos {
+    display: flex;
+    padding: 1em;
+}
+
+.textos__infos {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.infos__dados__textos {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.infos__dados__fontes {
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--preto);
+}
+
+.texto__fonte {
+    color: var(--preto);
+    font-weight: 400;
+    font-size: 25px;
+}

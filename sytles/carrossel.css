@@ -1,0 +1,36 @@
+.swiper {
+    width: 70%;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    padding: 0.4em;
+    width: 100%;
+}
+
+.swiper-pagination {
+    margin: 0.5em 0;
+}
+
+.swiper-wrapper {
+    padding: 0.4em;
+    align-items: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: block;
+}
+
+.singapura {
+    display: flex;
+    font-weight: 400;
+    font-size: 30px;
+    color: red;
+    justify-content: center;
+}
+
+.foto1 {
+    width: 50%;
+}
